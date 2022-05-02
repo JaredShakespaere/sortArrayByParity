@@ -6,10 +6,12 @@
 var sortArrayByParity = function (nums) {
 	let mapArr = [...nums];
 	let newArr = [];
+	console.log(`nums: ${nums}`);
 
 	for (let i = 0; i < nums.length; i++) {
 		if (nums[i] % 2 === 0) {
 			newArr.push(nums[i]);
+			console.log(`newArr: ${newArr}`);
 		}
 	}
 };
