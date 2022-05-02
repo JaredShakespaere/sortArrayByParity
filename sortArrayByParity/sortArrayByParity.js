@@ -4,7 +4,6 @@
 // Return any array that satisfies this condition.
 
 var sortArrayByParity = function (nums) {
-	let mapArr = [...nums];
 	let newArr = [];
 	console.log(`nums: ${nums}`);
 
@@ -14,4 +13,11 @@ var sortArrayByParity = function (nums) {
 			console.log(`newArr: ${newArr}`);
 		}
 	}
+	for (let i = 0; i < nums.length; i++) {
+		if (nums[i] % 2 === 1) {
+			newArr.push(nums[i]);
+			console.log(`newArr: ${newArr}`);
+		}
+	}
+    
 };
