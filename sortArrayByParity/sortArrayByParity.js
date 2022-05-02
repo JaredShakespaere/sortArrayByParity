@@ -20,4 +20,5 @@ var sortArrayByParity = function (nums) {
 		}
 	}
     
+    return newArr
 };
